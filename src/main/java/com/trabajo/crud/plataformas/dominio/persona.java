@@ -1,10 +1,7 @@
 package com.trabajo.crud.plataformas.dominio;
 
 import java.io.Serializable;
-
 import javax.persistence.*;
-
-
 import lombok.Data;
 
 @Data
