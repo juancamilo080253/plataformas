@@ -1,7 +1,6 @@
 package com.trabajo.crud.plataformas.Servicio;
 import java.util.List;
 
-import org.hibernate.type.TrueFalseType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +13,6 @@ public class personaServiceImpl implements personaService{
 
     @Autowired
     private personaDAO personaDAO;
-
 
     @Override
     @Transactional(readOnly = true)
